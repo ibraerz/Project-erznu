@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Oswald-Light;
+    src: url(Oswald/static/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: Lora-med;
+    src: url(Lora/static/Lora-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Oswald-Light;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    
+}
+
+.main {
+    display: flex;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1000px;
+    flex-grow: 1;
+ 
+}
+
+.aside {
+    width: 300px;
+}
+
+.section {
+    padding-left: 50px;
+}
+
+.title {
+    color: rgb(107, 107, 107);
+    font-family: Lora-med;
+    
+}
+
+.Ibra {
+    background-color: yellow; 
+    
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+
+.header-link {
+    color: chocolate;
+    margin: 0 10px;
+}
+
+
+.img {
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.my {
+    border-left: 5px solid rgb(210, 30, 126);
+    padding-left: 10px;
+    color: gray;
+    margin-top: 30px;
+    font-family: Lora-med;
+}
+
+.link {
+    color: chocolate;
+    font-family: Oswald-Light;
+}
+
+.link:hover {
+    color: rgb(107, 45, 0);
+}
+
+.span {
+    color: chocolate;
+    border-bottom: 1px solid chocolate;
+    cursor: pointer;
+}
+
+.link-skill {
+    color: rgb(0, 148, 0);
+  
+}
+
+.link-skill:hover {
+    color: rgb(3, 100, 0);
+}
+
+.footer {
+
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 112, 52);
+    border-top: 1px solid gray;
+    margin-top: auto;
+    
+}
+
+
